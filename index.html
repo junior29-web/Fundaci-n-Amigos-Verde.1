@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fundación Amigos Verde por Colombia</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeInUp { from { opacity:0; transform: translateY(12px);} to { opacity:1; transform: translateY(0);} }
+    .fade-in-up { animation: fadeInUp .8s ease-out both; }
+  </style>
+</head>
+<body class="bg-[#FAFAFA] text-gray-800 font-sans">
+  <header class="bg-gradient-to-br from-[#2E7D32] via-[#A5D6A7] to-[#4FC3F7] text-white">
+    <div class="max-w-6xl mx-auto px-4 py-8 text-center">
+      <img src="assets/img/logo.png" alt="Logo Fundación" class="mx-auto w-28 h-28 mb-3 fade-in-up"/>
+      <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight fade-in-up">Fundación Amigos Verde por Colombia</h1>
+      <p class="mt-2 text-white/90 fade-in-up">“Sembramos esperanza, cosechamos bienestar.”</p>
+      <div class="mt-4 flex justify-center gap-3">
+        <a href="#proyectos" class="px-4 py-2 rounded-full bg-[#FFD54F] text-gray-900 font-semibold hover:opacity-90 transition">Ver proyectos</a>
+        <a href="#contacto" class="px-4 py-2 rounded-full border border-white/70 hover:bg-white hover:text-[#2E7D32] transition">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-gray-200">
+    <div class="max-w-6xl mx-auto px-4 py-2 flex gap-6 text-sm md:text-base text-gray-700">
+      <a href="#quienes" class="hover:text-[#2E7D32] transition">Quiénes Somos</a>
+      <a href="#mision" class="hover:text-[#2E7D32] transition">Misión</a>
+      <a href="#lineas" class="hover:text-[#2E7D32] transition">Líneas de Acción</a>
+      <a href="#proyectos" class="hover:text-[#2E7D32] transition">Proyectos</a>
+      <a href="#contacto" class="hover:text-[#2E7D32] transition">Contacto</a>
+    </div>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-4 py-10 space-y-14">
+    <section class="fade-in-up">
+      <img src="assets/img/banner.jpg" alt="Naturaleza de Valledupar" class="w-full h-64 md:h-96 object-cover rounded-2xl shadow-lg">
+    </section>
+
+    <section id="quienes" class="grid md:grid-cols-2 gap-8 items-center">
+      <div class="fade-in-up">
+        <h2 class="text-3xl font-bold text-[#2E7D32] mb-2">¿Quiénes Somos?</h2>
+        <p class="text-lg">
+          Organización sin ánimo de lucro constituida el 1 de julio de 2025 en Valledupar,
+          dedicada a mejorar el medio ambiente, restablecer la calidad del agua y promover la conservación de la biodiversidad.
+        </p>
+      </div>
+      <img src="assets/img/quienes.jpg" alt="Comunidad cuidando la naturaleza en el Cesar" class="rounded-2xl shadow-md fade-in-up">
+    </section>
+
+    <section id="mision" class="grid md:grid-cols-2 gap-8 items-center bg-white rounded-2xl p-6 shadow-md">
+      <img src="assets/img/mision.jpg" alt="Paisaje con mensaje inspirador" class="rounded-2xl fade-in-up">
+      <div class="fade-in-up">
+        <h2 class="text-3xl font-bold text-[#2E7D32] mb-2">Misión</h2>
+        <p class="text-lg">
+          Somos una entidad sin ánimo de lucro dedicada a mejorar el medio ambiente, restablecer la calidad del agua,
+          promover la conservación de la biodiversidad y el uso responsable de los recursos naturales, generando espacios de
+          convivencia con la naturaleza y fomentando infraestructura responsable.
+        </p>
+      </div>
+    </section>
+
+    <section id="lineas" class="bg-[#A5D6A7]/30 rounded-2xl p-6 fade-in-up">
+      <h2 class="text-3xl font-bold text-[#2E7D32] mb-6 text-center">Líneas de Acción</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg transition">
+          <h3 class="font-bold text-[#2E7D32]">🌿 Medio Ambiente</h3>
+          <p>Acciones para restaurar y proteger ecosistemas.</p>
+        </div>
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg transition">
+          <h3 class="font-bold text-[#2E7D32]">📚 Educación</h3>
+          <p>Formación en valores, ambiente y participación.</p>
+        </div>
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg transition">
+          <h3 class="font-bold text-[#2E7D32]">🍎 Salud y Nutrición</h3>
+          <p>Apoyo a comunidades con proyectos alimentarios.</p>
+        </div>
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg transition">
+          <h3 class="font-bold text-[#2E7D32]">🏘️ Infraestructura</h3>
+          <p>Construcciones sostenibles con impacto social.</p>
+        </div>
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg transition">
+          <h3 class="font-bold text-[#2E7D32]">🎭 Cultura y Deporte</h3>
+          <p>Fomentamos el arte, el deporte y la identidad.</p>
+        </div>
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg transition">
+          <h3 class="font-bold text-[#2E7D32]">🕊️ Derechos Humanos</h3>
+          <p>Promoción de la paz, la inclusión y la equidad.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="fade-in-up">
+      <h2 class="text-3xl font-bold text-[#2E7D32] mb-6 text-center">Proyectos en Curso</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img src="assets/img/vidasverdes.jpg" alt="Reforestación" class="h-40 w-full object-cover">
+          <div class="p-4">
+            <h3 class="font-bold">Vidas Verdes</h3>
+            <p>Reforestación y formación ambiental en el Cesar.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img src="assets/img/pazliderazgo.jpg" alt="Jóvenes colaborando" class="h-40 w-full object-cover">
+          <div class="p-4">
+            <h3 class="font-bold">Escuelas de Paz y Liderazgo</h3>
+            <p>Formación juvenil en derechos humanos.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+          <img src="assets/img/comedores.jpg" alt="Infancia y alimentación" class="h-40 w-full object-cover">
+          <div class="p-4">
+            <h3 class="font-bold">Comedores para la Esperanza</h3>
+            <p>Apoyo alimentario a la infancia vulnerable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="bg-white rounded-2xl p-6 shadow fade-in-up">
+      <h2 class="text-3xl font-bold text-[#2E7D32] mb-2">Contáctanos</h2>
+      <p><strong>Dirección:</strong> Calle 15 No. 3-26, Barrio La Guajira, Valledupar – Cesar</p>
+      <p><strong>Correo:</strong> contacto@fundacionverdecolombia.org</p>
+    </section>
+  </main>
+
+  <footer class="bg-[#2E7D32] text-white text-center py-6 mt-10">
+    Fundación Amigos Verde por Colombia © 2025 – Todos los derechos reservados.
+  </footer>
+</body>
+</html>
